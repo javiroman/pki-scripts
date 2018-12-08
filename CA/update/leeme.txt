@@ -1,0 +1,1 @@
+https://community.pivotal.io/s/article/How-to-renew-an-expired-Apache-Web-Server-self-signed-certificate-using-the-OpenSSL-tool

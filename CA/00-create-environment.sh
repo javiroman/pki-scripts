@@ -162,7 +162,7 @@ extendedKeyUsage = critical, OCSPSigning
 EOF
 
 # 
-# Root CA Environment
+# Intermediate CA Environment
 # 
 
 touch CA-Intermediate/index.txt

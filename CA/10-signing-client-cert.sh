@@ -1,3 +1,10 @@
+# Use the private key to create a certificate signing request (CSR). The CSR
+# details don’t need to match the intermediate CA. For server certificates, the
+# Common Name must be a fully qualified domain name (eg, www.example.com),
+# whereas for client certificates it can be any unique identifier (eg, an
+# e-mail address). Note that the Common Name cannot be the same as either your
+# root or intermediate certificate.
+
 pushd CA-Intermediate
 
 openssl genrsa -out private/client1.key 2048
@@ -12,7 +19,7 @@ openssl req \
     -new -sha256 -out csr/client1.csr
 
 echo
-echo "Creating the Server Cerfificate .... "
+echo "Creating the Client Cerfificate [you have to change the information!!!].... "
 echo
 
 openssl ca \
