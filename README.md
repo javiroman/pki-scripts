@@ -1,9 +1,5 @@
-# PKI for Comodoo Project
-public key infrastructure (PKI) for Comodoo infra
-
-Notes from:
-
-https://jamielinux.com/docs/openssl-certificate-authority/create-the-intermediate-pair.html
+# PKI Helper Scripts
+public key infrastructure (PKI) helper scripts
 
 # Setting Up a Certification Authority
 
